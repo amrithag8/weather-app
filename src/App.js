@@ -14,7 +14,7 @@ function App() {
 
  function fetchDataAll(){
   
-setUrl(`http://api.weatherapi.com/v1/current.json?key=c7ad5db4a1434b5d9ae235021231104&q=${place}&aqi=no`);
+setUrl(`https://api.weatherapi.com/v1/current.json?key=c7ad5db4a1434b5d9ae235021231104&q=${place}&aqi=no`);
 setPlace("");
  }
 
